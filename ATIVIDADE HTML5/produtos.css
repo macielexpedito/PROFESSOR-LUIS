@@ -1,0 +1,41 @@
+body {
+     background-image: url('https://images.pexels.com/photos/31052831/pexels-photo-31052831.jpeg?w=1200');
+     background-repeat: no-repeat;
+     background-size: cover; 
+}
+.produtos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.produtos li {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.produtos li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.produtos img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.produtos h3 {
+    margin: 10px 0 5px 0;
+}
+
+.produtos p {
+    margin: 5px 0;
+}

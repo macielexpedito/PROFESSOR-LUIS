@@ -1,0 +1,12 @@
+body {
+     background-image: url('https://images.pexels.com/photos/5839949/pexels-photo-5839949.jpeg?w=1200');
+     background-repeat: no-repeat;
+     background-size: cover; 
+}
+.containerPagina {
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
