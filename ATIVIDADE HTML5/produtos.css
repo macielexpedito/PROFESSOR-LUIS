@@ -9,6 +9,13 @@ button {
     padding: 10px 20px;
     align-items: center;
 }
+.titulo {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000;
+}
 .produtos {
     list-style: none;
     padding: 0;
