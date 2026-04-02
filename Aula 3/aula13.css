@@ -1,0 +1,15 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cursoCSS {
+   width: 350px;
+    height: 350px;
+    padding: 30px;
+    border: 13px solid red;
+    margin: 50px;
+    background-color: silver;
+    border-radius: 20px;
+    box-shadow: 10px 0 15px 12px black;
+}
