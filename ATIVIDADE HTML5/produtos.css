@@ -1,20 +1,27 @@
+:root{
+    --botao: #333;
+    --letra: white;
+    --sobra: #000;
+    --borda: #ccc;
+}
+
 body {
      background-image: url('https://images.pexels.com/photos/31052831/pexels-photo-31052831.jpeg?w=1200');
      background-repeat: no-repeat;
      background-size: cover; 
 }
 button {
-    background-color: #333;
-    color: white;
+    background-color: var(--botao);
+    color: var(--letra);
     padding: 10px 20px;
     align-items: center;
 }
 .titulo {
     text-align: center;
     font-family: Arial, sans-serif;
-    color: white;
+    color: var(--letra);
     margin-top: 50px;
-    text-shadow: 2px 2px 4px #000;
+    text-shadow: 2px 2px 4px var(--sobra);
 }
 .produtos {
     list-style: none;
@@ -27,17 +34,14 @@ button {
 }
 
 .produtos li {
-    border: 1px solid #ccc;
+    border: 1px solid var(--borda);
     padding: 15px;
     width: 200px;
     text-align: center;
-    border-radius: 10px;
-    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .produtos li:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px var(--sobra);
 }
 
 .produtos img {

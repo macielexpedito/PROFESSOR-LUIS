@@ -1,15 +1,45 @@
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /* Estilo dp corpo para centralizar o card na tela */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
 }
-.cursoCSS {
-   width: 350px;
-    height: 350px;
-    padding: 30px;
-    border: 13px solid red;
-    margin: 50px;
-    background-color: silver;
-    border-radius: 20px;
-    box-shadow: 10px 0 15px 12px black;
+
+/* O CARD - onde o Box Model acontece */
+.card {
+    width: 300px; /* Largura fixa da caixa */
+    background-color: white; /* Cor de fundo*/
+   
+    /* espaçamentos */
+    padding: 20px; /* espaço interno (respiro do texto) */
+    margin: 50px auto; /* 50px em cima/baixo e auto para centralizar horizontalmente */
+
+    /* borda e EStética */
+    border: 2px solid #ddd;/* borda simples */
+    border-radius: 15px;/* arrendonda as quinas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+    }
+
+    /* Ajustando a imagem dentro do card */
+.card img {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    border-radius: 8px; /* Empurra o titulo para baixo */
+    margin-bottom: 15px; /* Espaço entre a imagem e o título */
+}
+
+/* Estilo do título */
+.card h1 {
+    color: #333;
+    margin: 10px 0; /* margem em cima e embaixo */
+}
+
+/* Estilo do botão */
+.botao-comprar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px ; /*padding faz o botão crescer */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* O botão ocupa toda a largura do card */
+    font-size: 16px;
 }

@@ -1,3 +1,10 @@
+:root{
+    --borda: #ccc;
+    --botao: #333;
+    --letra: white;
+
+}
+
 body {
     background-image: url('https://images.pexels.com/photos/31052831/pexels-photo-31052831.jpeg?w=1200');
     background-repeat: no-repeat;
@@ -20,14 +27,14 @@ input, textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--borda);
     border-radius: 5px;
     box-sizing: border-box;
 }
 
 button {
-    background-color: #333;
-    color: white;
+    background-color: var(--botao);
+    color: var(--letra);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -37,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: var(--botao);
 }
 
 img {

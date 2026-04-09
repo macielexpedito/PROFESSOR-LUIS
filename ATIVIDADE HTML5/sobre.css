@@ -1,11 +1,16 @@
+:root{
+    --botao: #333;
+    --letra: white;
+    }
+
 body {
      background-image: url('https://images.pexels.com/photos/5839949/pexels-photo-5839949.jpeg?w=1200');
      background-repeat: no-repeat;
      background-size: cover; 
 }
 button {
-    background-color: #333;
-    color: white;
+    background-color: var(--botao);
+    color: var(--letra);
     padding: 10px 20px;
 }
 .containerPagina {

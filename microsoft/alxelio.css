@@ -1,0 +1,12 @@
+:root{
+
+    --batata: rgb(0, 255, 42);
+    --cachorro: red;
+
+}
+
+.senai{
+
+    background-color: var(--batata);
+    color: var(--cachorro)
+}

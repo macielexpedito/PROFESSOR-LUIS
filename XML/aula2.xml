@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <viacep>
+    <endereço1>
+        <cep>06160265</cep>
+        <rua>Anastacia</rua>
+        <bairro>Bandeiras</bairro>
+        <cidade>Osasco</cidade>
+    </endereço1>
+    <endereço2>
+        <cep>06401134</cep>
+        <rua>Alameda Wagih Salles Nemer</rua>
+        <bairro>Centro de Barueri</bairro>
+        <cidade>Barueri</cidade>
+    </endereço2>
+    <endereço3>
+        <cep>06216901</cep>
+        <rua>Ari Barroso</rua>
+        <bairro>Presidente Altino</bairro>
+        <cidade>Osasco</cidade>
+    </endereço3>
+ </viacep>
