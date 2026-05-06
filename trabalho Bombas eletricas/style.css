@@ -24,8 +24,16 @@
     border-radius: 5px;
 }
 
-.menu .active {
-    background: #2f5cff;
+.menu button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.menu button:hover {
+    background: blue;
     color: white;
 }
 
