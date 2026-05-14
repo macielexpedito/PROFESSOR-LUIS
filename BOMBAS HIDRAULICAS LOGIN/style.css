@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border: none;
+    border-bottom: blue 2px solid;
+}
+.menu {
+    display: flex;
+
+}
+.menu a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+.menu button {
+    background: white;
+    color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+.menu button:hover {
+    background: blue;
+    color: white;
+}
+.login button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.hidraulica {
+    height: 200px;
+    background: linear-gradient(90deg, #222, #555);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.solucoes {
+    padding: 40px;
+    text-align: center;
+}
+
+.titulo h2 {
+    margin-bottom: 10px;
+}
+
+.titulo p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: darkgreen;
+}
+
+.rodape {
+    margin-top: 20px;
+    background:#e8f5e9;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes p {
+    margin-bottom: 35px;
+}
+
+.icones a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center; 
+    vertical-align: middle;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 12px; 
+    font-family: sans-serif;
+}
+.rodapes2 {
+    justify-content: center;
+        
+}
+.rodape2 p {
+    text-align: center;
+    color: white;
+    background: #222;
+}
+
+.sobre {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  .historia {
+    
+    width: 770px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+  }
+  .historia p {
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .contato {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    }
+.faleConosco {
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    }
+.faleConosco input, .faleConosco textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666;
+    }
+.faleConosco button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bolder;
+    
+}
+.logar {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;        
+}
+.dados {
+    width: 300px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+.dados h1{
+    margin-bottom: 20px;
+    color: blue;
+ }
+.dados input{
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+}
+.dados button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90%;
+    height: 40px;
+    font-weight: bolder;
+
+ }    
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border: none;
+    height: 70px;
+    background-color: blue;
+}
+.sistema {
+    color: white;
+}
+
+.botao button {
+    background: rgb(185, 122, 5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.desenvolver {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5f5f5; 
+    
+}
+.consulta {
+    height: 100%;
+    border-right: 2px solid #1b1a1ae9;
+    width: 200px;
+    background-color: white;
+    padding: 0;
+    margin-right: auto;
+}
+
+
+.saudacao {
+    width: 300px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+
+}
+
