@@ -7,18 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   	    <div class="topo">
+
+         <div class="logo">
+           <h2>
+            <img src="Windows.png" alt="logotipo da empresa" width="40">          
+            </h2>
+    	 </div>
+
+         <div class="menu">
+           <a href="home.html">
+            <button>Home</button>
+           </a>
+           <a href="sobre.html">
+            <button>Sobre</button></a>
+           <a href="contato.html">
+            <button>Contato</button></a>
+     	 </div>
+        </div>
+
     
         <div class="logar">            
             <div class="dados">
                 <img src="Windows.png" alt="" width="40">
                 <h1>Login</h1>
-                <input type="text" placeholder="Digite seu e-mail">
-                <input type="text" placeholder="Digite sua senha">
-                <a href="sistema.html">
-                <button>Acessar</button>
-                </a>                       
+                <input type="text" id="email" placeholder="Digite seu e-mail">
+                <input type="text" id="senha" placeholder="Digite sua senha">                
+                <button id="botaoAcessar">Acessar</button>                    
             </div>
         </div>
-    
 </body>
+<script src="login.js"></script>
 </html>
